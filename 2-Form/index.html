@@ -9,29 +9,38 @@
 <body>
     <div class="bg">
         <form action="#">
+        <div class="flex2">
+            <h1>Регистрация</h1>
+            <p class="entrada">Уже есть аккаунт? <a href="#">Войти</a></p>
+        </div>
+        <div class="string">    
+            <input type="text" placeholder="Моя компания" id="company" name="company" required>  
 
-        <h1>Регистрация</h1>
-        <p class="entrada">Уже есть аккаунт? <a href="#">Войти</a></p>
-        <input type="text" placeholder="Моя компания" id="company" name="company" required>
-        
-            <div class="informacion">
-                <div class="name_family">
+            <div class="item name_family informacion">
+                <div>
                     <label for="name"></label>
                     <input type="text" placeholder="Имя" id="name" name="name" required>
-
-                    <label for="family"></label>
-                    <input type="family" placeholder="Фамилия" id="family" name="family" required>
                 </div>
-            
+                <div>
+                    <label for="family"></label>
+                    <input type="family" placeholder="Фамилия" id="family" name="family" required>                        
+                </div>
+            </div>
+            <div class="item email informacion">
                 <label for="email"></label>
                 <input type="email" placeholder="E-mail" id="email" name="email" required>
             </div>
+
+            <div class="button">
+                <img class="arrow" src="img/Arrow 1.svg" alt="Стрела указывает вправо">
+                <button>Зарегистрироваться</button>
+            </div>
             
-            <button>Зарегистрироваться<img class="arrow" src="img/Arrow 1.png" alt="Стрела указывает вправо"></button>
             <div class="agree_lable">
                 <input type="checkbox" id="agree" name="agree" required>
                 <label class="agree" for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
-            </div>        
+            </div>  
+        </div>      
         </form>
     </div>
     

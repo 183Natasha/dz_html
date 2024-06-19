@@ -12,14 +12,17 @@ body{
 }
 
 .bg{
+    
     background-color: #FFFFFF;
     display: inline-block;    
     border-radius: 10px;
     width: 582px;
     height: 573px;
-    margin: 225px 0 226px 0;
-
+    margin: 225px 429px 225px 429px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+    
 }
+
 
 a{
     color: rgb(8, 159, 224);
@@ -39,6 +42,18 @@ h1{
 
 .entrada{
     margin-bottom: 47px;
+    text-align: center;
+}
+
+
+
+.string {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 
@@ -49,13 +64,23 @@ h1{
     border-radius: 5px;
     color: #333333;
 
-    margin-bottom: 21px;
     padding: 9px 150px 9px 11px;
     
     font-size: 16px;
     font-weight: 600;
     line-height: 21px;
     text-align: left;
+}
+
+#company:focus,
+#name:focus,
+#family:focus,
+#email:focus{
+    outline: none; 
+}
+
+.informacion:focus{
+    outline: none; 
 }
 
 .informacion input{
@@ -69,7 +94,24 @@ h1{
     border: 1px solid #FFFFFF;
     background-color: #F5F5F5;
     padding: 9px 35px 9px 11px;
-    margin-bottom: 22px;
+    
+
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1px;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.item{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
 }
 
 
@@ -93,12 +135,14 @@ button{
     border: none;
     width: 394px;
     height: 44px;
-    margin-bottom: 22px;
     text-align: center;
     padding: 9px 102px 9px 102px;
 }
 
-
+.arrow{
+    position: absolute;
+    padding: 11px 24px 11px 348px;
+}
 
 
 .agree_lable{
@@ -109,3 +153,5 @@ button{
     margin-bottom: 91px;
 
 }
+
+

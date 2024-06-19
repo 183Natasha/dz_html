@@ -9,34 +9,66 @@
 
 body{
     background: linear-gradient(#374151 100%, #111827 100%, #121928 81% );
-    width: 1440px;
-    height: 1516px;
+    max-width: 1080px;
+    margin: 0 auto;
 }
+
+
+.header{
+    display: flex;
+    gap: 340px;
+    align-items: baseline;
+    max-width: 1080px;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
 
 .my_blog{
     font-size: 18px;
+    gap: 11px;
+    align-items: baseline;
 }
+
 
 nav ul, a{
     text-decoration: none;
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    gap: 39px;
+    
 }
 
 nav{
-    padding: 80px 173px;
     margin-bottom: 80px;
+    display: flex;
+    align-items: baseline;
+    gap: 77px;
+    justify-content: center;
+
+}
+
+.HTML{
+    margin-right: 13px;
 }
 
 
 #query{
+    width: 147px;
+    height: 19px;
     margin-top: 71px;
     border-radius: 100px;
-    padding-left: 10px;
+    padding: 9px 28px 12px 49px;
+    color: rgb(255, 255, 255);
 }
 
 .search{
+    position: absolute;
+    padding: 14px 192px 12px 18px;
+    margin-top: 71px;
     width: 14px;
     height: 14px;
 }
@@ -59,7 +91,7 @@ nav{
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     text-align: center;
-    margin-bottom: 14px;
+    margin: 0 auto 14px auto;
 }
 
 h1{
@@ -67,17 +99,21 @@ h1{
     line-height: 38px;
     text-align: center;
     margin-bottom: 30px;
+    align-items: center;
+    max-width: 525px;
+    margin: 0 auto 50px auto;
 }
 
 .autor{
-    display: inline-block;
-    margin-bottom: 0;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin: 0;
 }
 
 .foto{
     width: 50px;
     height: 50px;
-    left: 640px;
     border-radius: 25px;
 }
 
@@ -85,7 +121,7 @@ h1{
     border-radius: 5px;
     width: 896px;
     height: 594px;
-    margin-bottom: 69px;
+    margin: 0 auto 69px auto;
 }
 
 .name{
@@ -96,36 +132,48 @@ h1{
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 28px;
+    margin-top: 0px;
     margin-bottom: 28px;
+}
+
+.img_tele{
+    display: flex;
 }
 
 article p{
     font-size: 16px;
     line-height: 30px; 
+    text-align: left;
+    margin: 0 auto;
+    max-width: 708px;
+
 }
 
 
 .p_top{
-    display: inline-block;
     font-size: 20px;
+    font-weight: 400;
     line-height: 32px;
+    letter-spacing: 0%;
     margin-bottom: 50px;
 }
 
 .p_2{
-    display: inline-block;
     margin-bottom: 50px;
 }
 
 .p_3{
-    display: inline-block;
     margin-bottom: 100px;
+
 }
 
 
 
 footer{
-    display: inline-block;
+    max-width: 1080px;
+    width: 226px;
+    height: 28px;
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 77px;
+    margin: 0 auto;
+    padding: 47px 40px;
 }
